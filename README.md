@@ -1,23 +1,23 @@
-<h1 align="center"> Easy Extension</h1>
+<h1 align="center"> Lazy chrome Extension template</h1>
 <p align="center">
-  <a href="https://github.com/wuchuheng/easy-extension-template/stargazers">
-    <img src="https://img.shields.io/github/stars/wuchuheng/easy-extension-template?style=flat&logo=github" alt="GitHub stars">
+  <a href="https://github.com/wuchuheng/lazy-extension-template/stargazers">
+    <img src="https://img.shields.io/github/stars/wuchuheng/lazy-extension-template?style=flat&logo=github" alt="GitHub stars">
   </a>
-  <a href="https://github.com/wuchuheng/easy-extension-template/issues">
-    <img src="https://img.shields.io/github/issues/wuchuheng/easy-extension-template?style=flat" alt="GitHub issues">
+  <a href="https://github.com/wuchuheng/lazy-extension-template/issues">
+    <img src="https://img.shields.io/github/issues/wuchuheng/lazy-extension-template?style=flat" alt="GitHub issues">
   </a>
-  <a href="https://github.com/wuchuheng/easy-extension-template/blob/master/LICENSE">
+  <a href="https://github.com/wuchuheng/lazy-extension-template/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green?style=flat" alt="License: MIT">
   </a>
-  <a href="https://github.com/wuchuheng/easy-extension-template/pulls">
-    <img src="https://img.shields.io/github/issues-pr/wuchuheng/easy-extension-template?style=flat" alt="Pull Requests">
+  <a href="https://github.com/wuchuheng/lazy-extension-template/pulls">
+    <img src="https://img.shields.io/github/issues-pr/wuchuheng/lazy-extension-template?style=flat" alt="Pull Requests">
   </a>
-  <a href="https://github.com/wuchuheng/easy-extension-template/commits/master">
-    <img src="https://img.shields.io/github/last-commit/wuchuheng/easy-extension-template?style=flat" alt="Last commit">
+  <a href="https://github.com/wuchuheng/lazy-extension-template/commits/master">
+    <img src="https://img.shields.io/github/last-commit/wuchuheng/lazy-extension-template?style=flat" alt="Last commit">
   </a>
 </p>
 
-Easy Extension gives you automatic hot-reload while you build the content script, popup page, and options page, and lets you write the UI in React, TypeScript, and Tailwind CSS.
+lazy Extension gives you automatic hot-reload while you build the content script, popup page, and options page, and lets you write the UI in React, TypeScript, and Tailwind CSS.
 
 ## Contents
 
@@ -161,7 +161,7 @@ void mountAnchoredUI({
 
 ## Centralized Messaging System
 
-Easy Extension includes a type-safe, centralized messaging system that simplifies communication between different parts of the extension (content scripts, popup, options, background, etc.).
+lazy Extension includes a type-safe, centralized messaging system that simplifies communication between different parts of the extension (content scripts, popup, options, background, etc.).
 
 ### Messaging Mechanism (Mermaid)
 
