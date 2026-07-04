@@ -12,6 +12,8 @@ dist
 release
 dist-ssr
 *.local
+CLAUDE.local.md
+.claude/settings.local.json
 
 # Editor directories and files
 .vscode/*

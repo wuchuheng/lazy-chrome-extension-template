@@ -2,6 +2,24 @@
 
 This file provides guidance to Claude Code and Gemini CLI when working with code in this repository.
 
+Treat this file and `.claude/rules/` as the project contract. The local
+`.claude/settings.json` file adds Claude Code hooks for dangerous shell command
+blocking, generated-path protection, and completion evidence checks.
+
+## Claude Operating Rules
+
+- Anchor every task to the user request, documented spec, or specific module before editing.
+- Do not implement adjacent or future scope unless the user approves the scope change.
+- Use TDD for production behavior changes when a practical automated test exists.
+- Keep construction quality high: readable decomposition, explicit boundaries, typed data, structured errors, and useful comments only.
+- Preserve Chrome extension context boundaries between popup, side panel, options, content script, background service worker, and offscreen document.
+- Report exact verification commands and results before claiming completion.
+- Use `/drift-check` before claiming source, test, config, or new-file work is complete.
+- Use `/quality-review` before finishing TypeScript, React, or Chrome extension implementation work.
+- Use `/comment-review` whenever adding or changing comments, TSDoc, or public APIs.
+
+Do not edit generated, external, or build-output paths unless the user explicitly requests that path: `node_modules/`, `dist/`, `release/`, `coverage/`, `playwright-report/`, `.chromiumCache/`, and `1.30.3_0/`.
+
 ## Overview
 
 Chrome Manifest V3 extension for the WareFlow JinCheng platform. Built with **React 19 + TypeScript 5.8 + Vite 7 + CRXJS + Tailwind CSS 4**.
